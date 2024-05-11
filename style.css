@@ -1,0 +1,241 @@
+
+
+
+body{
+    margin: 0px;
+}
+.checkbtn{display: none;}
+#check{display: none;}
+
+.pinkHeaders{
+    color: palevioletred;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: #f7f5f7;
+    height: 53px;
+}
+.logo{
+    display: inline-block;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 24px;
+letter-spacing: 3.8px;
+word-spacing: 2.4px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+color: palevioletred;
+}
+.menu li{
+    display: inline-block;
+    margin: 0px 10px;
+    color: palevioletred;
+}
+.menu li a{
+    text-decoration: underline;
+    color: palevioletred;
+}
+.menu{
+    list-style: none;
+    float: right;
+}
+
+
+/* lowerNav design starts here */
+
+
+.lowerNav{
+    background-image: url('background.jpeg');
+    background:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 0px;
+    height: 340px;
+}
+
+.lowerNav h1, .lowerNav h2{
+    margin: 0px;
+}
+.lowerNav p{
+    width: 50%;
+    text-align: center;
+}
+.lowerNav button{
+    width: 90px;
+}
+.tellHerbtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.tellHerbtn{
+    background-color: palevioletred;
+    padding: 10px;
+    height: 40px;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.tellHerbtn:hover{
+    background-color: pink;
+}
+
+/* tellHer section starts here */
+
+
+.tellHer{
+    padding: 0px 40px;
+    height: 430px;
+}
+.tellHer form{
+    display: flex;
+    flex-direction: column;
+}
+
+.tellHer form input, .tellHer form textarea{
+    padding: 20px;
+    margin: 10px 0px;
+    border: 1px solid palevioletred;
+}
+.tellHer form textarea{
+    height: 80px;
+}
+
+/* services section starts here */
+
+.services {
+    padding: 8px 40px;
+    padding-bottom: 30px;
+    background-color: #f7f5f7;
+}
+.itemContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 220px;
+    height: 270px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid palevioletred;
+    background-color: white;
+}
+.item p{
+    text-align: center;
+}
+
+
+/* contact section starts here */
+
+
+.contact{
+    padding: 0px 40px;
+    height: 430px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, .contact form textarea{
+    padding: 20px;
+    margin: 10px 0px;
+    border: 1px solid palevioletred;
+}
+.contact form textarea{
+    height: 80px;
+}
+
+/* footer section starts here */
+
+.footer{
+    padding: 0px 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+}
+.footer .p{
+    margin-top: 0px;
+}
+.footer a{
+    color: white;
+    margin: 5px;
+    
+}
+
+
+/* responsive style start here */
+#closebtn{
+    display: none;
+}
+
+
+.fa-bars{
+    color: black;
+}
+@media(max-width: 600px){
+    .navbar{
+        display: block;
+        
+    }
+    
+    .fa-bars{
+        display: block;
+        float: right;
+        font-size: 48px;
+        
+        
+    }
+    .checkbtn{
+        display: inline-block;
+        float: right;
+        margin-top: 20px;
+    }
+    .navbar li{
+        font-size: 20px;
+        display: block;
+        margin: 16px;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        height: 250px;
+        left: -1000px;
+        transition: all 0.5s;
+    }
+    .item{
+        height: 170px;
+        width: 110px;
+    }
+    #closebtn{
+        display: inline-block;
+    }
+    .lowerNav p{
+        width: 80%;
+   
+}
+
+
+
+
+
