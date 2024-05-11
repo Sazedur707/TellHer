@@ -225,7 +225,8 @@ color: palevioletred;
     }
     .item{
         height: 200px;
-        width: 113px;
+        width: 110px;
+        padding: 2px 2px;
     }
     #closebtn{
         display: inline-block;
